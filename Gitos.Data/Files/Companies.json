@@ -1,0 +1,37 @@
+[ {
+    "Name": "GITOS bvba",
+    "Street": "Louis Pasteurwijk",
+    "HouseNumber": "30",
+    "PostalCode": "3010",
+    "City": "Leuven",
+    "NumberKBO": 607938095,
+    "GUID": "4D0449A8-7461-459F-93BC-B3ED7A79B5EC"
+  },
+  {
+    "Name": "Imalink nv",
+    "Street": "Beerdevelde-Dorp",
+    "HouseNumber": "46",
+    "PostalCode": "9080",
+    "City": "Lochristi",
+    "NumberKBO": 471930932,
+    "GUID": "0ebd78d4-e5a8-447f-af9e-c56fcdde077a"
+  },
+  {
+    "Name": "KnowingWhere",
+    "Street": "Rue du Monty",
+    "HouseNumber": "2",
+    "PostalCode": "5377",
+    "City": "Nettinne",
+    "NumberKBO": 688450966,
+    "GUID": "81f5de02-3373-4657-874a-ee54d212359e"
+  },
+  {
+    "Name": "LPCC bvba",
+    "Street": "Louis Pasteurwijk",
+    "HouseNumber": "28",
+    "PostalCode": "3010",
+    "City": "Leuven",
+    "NumberKBO": 649410644,
+    "GUID": "5a61054c-bf02-4636-ba96-3fad9dfce261"
+  }
+]

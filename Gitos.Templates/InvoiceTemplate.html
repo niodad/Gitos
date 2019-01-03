@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="Invoice.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="logo"><img height="50" src="E:\temp\photoshop\Gitos\Gitos_Logo.png" /> GITOS</div>
+        <h1>FACTUUR</h1>
+    </header>
+    <table>
+        <tr>
+            <td colspan="3">{CompanyName}</td>
+        </tr>
+        <tr>
+            <td width="50%">{CompanyStreet}</td>
+            <td width="25%" style="text-align:right"><b>Factuurdatum:</b></td>
+            <td width="25%">{Datum}</td>
+        </tr>
+        <tr>
+            <td>{CompanyCity}</td>
+            <td style="text-align:right"><b>Factuurnummer:</b></td>
+            <td>{InvoicNumber}</td>
+        </tr>
+        <tr>
+            <td colspan="3">Gsm: +32/498518143</td>
+        </tr>
+        <tr>
+            <td colspan="3">{CompanyNumber}</td>
+        </tr>
+        <tr>
+            <td colspan="3">IBAN BE78 7350 3842 1886  / KREDBEBB</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td style="font-weight:bold">FACTUURADRES:</td>
+        </tr>
+        <tr>
+            <td>{ClientName}</td>
+        </tr>
+        <tr>
+            <td>{ClientStreet}</td>
+        </tr>
+        <tr>
+            <td>{ClientCity}</td>
+        </tr>
+        <tr>
+            <td>{ClientNumber}</td>
+        </tr>
+    </table>
+    <table class="invoices">
+        <thead>
+            <tr style="padding-bottom:5px;margin-bottom:20px">
+                <td width="50%" style="border-bottom:1px">Omschrijving</td>
+                <td style="border-bottom:1px">Uren</td>
+                <td style="border-bottom:1px">Tarief</td>
+                <td style="border-bottom:1px">Bedrag</td>
+            </tr>
+        </thead>
+        <tr>
+            <td colspan="4" height="10px"> </td>
+
+        </tr>
+        {InvoicesTable}
+        <tr>
+            <td colspan="3" height="50px" style="text-align:right; border-top:1px">Subtotaal: </td>
+            <td style="text-align:right;border-top:1px">{SubTotal}</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align:right">BTW-Tarief: </td>
+            <td style="text-align:right">{Btw}</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align:right">BTW-Bedrag: </td>
+            <td style="text-align:right">{BtwAmount}</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align:right">Overige: </td>
+            <td style="text-align:right">{Rest}</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="test" style="text-align:right; background-color:  #c3dbb2;">Totaal: </td>
+            <td class="test" style="text-align:right; background-color: #c3dbb2;">{Total}</td>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <div style="text-align:center">
+        <p>
+            Voor een correcte verwerking van de betaling dient u het totaalbedrag <b>({Total})</b> over te maken met vermelding van het
+            Factuurnummer <b>{InvoicNumber}</b> op rekeningnummer KBC - BE78 7350 3842 1886.
+        </p>
+        <br />
+        <p style="font-weight:bold">
+            Wij danken u voor uw vertrouwen in ons.
+        </p>
+    </div>
+</body>
+</html>

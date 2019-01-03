@@ -1,0 +1,36 @@
+﻿        body {
+            font-size: 13px;
+        }
+
+        .logo {
+            color: black;
+            font-size: 40px;
+        }
+        td
+        {
+            padding:2px;
+            font-size:13px;
+
+        }
+
+        table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+           
+        }
+
+        .invoices td {
+            padding: 3px;
+            text-align: left;
+        }
+
+        thead {
+            background-color: #c3dbb2;
+        }
+
+        h1 {
+            text-align: right;
+            color: #d8e4e8;
+            font-size: 40px;
+        }
